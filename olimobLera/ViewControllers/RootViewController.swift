@@ -14,21 +14,10 @@ class RootViewController: UIViewController {
     
     let helpFunc = HelpFunc()
     let appDelegate = UIApplication.shared.delegate as! AppDelegate
-    var deeplinkStatus = appDelegate.deeplinkGet
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-    }
-    
-    func routerScreen() {
-        
-        if deeplinkStatus == true {
-            openSuccessScreen()
-        }else if deeplinkStatus == false{
-            openDummyScreen()
-            print("We didn't get deeplink or deeplinkStatus = nil")
-        }
     }
     
     public func openDummyScreen(){
@@ -46,7 +35,7 @@ class RootViewController: UIViewController {
 
     @IBAction func pushButton(_ sender: Any) {
         helpFunc.requestToServer()
-        routerScreen()
+        appDelegate.routerScreen()
         
     }
     

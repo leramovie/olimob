@@ -43,6 +43,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
             if let url = url {
                 
+                
+                
                   print (url)
                 
                 if #available(iOS 10, *) {
@@ -82,8 +84,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
  
         return true
     }
-
     
+    func routerScreen() {
+          
+          if deeplinkGet == true {
+            rootVC.openSuccessScreen()
+          }else if deeplinkGet == false{
+            rootVC.openDummyScreen()
+              print("We didn't get deeplink or deeplinkStatus = nil")
+          }
+      }
+
+  
     
 //
 //    // MARK: Universal Links

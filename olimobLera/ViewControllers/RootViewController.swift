@@ -14,7 +14,7 @@ class RootViewController: UIViewController {
     
     let helpFunc = HelpFunc()
     let appDelegate = UIApplication.shared.delegate as! AppDelegate
-    var deeplinkStatus = self.appDelegate.deeplinkGet
+    var deeplinkStatus = appDelegate.deeplinkGet
     
     
     override func viewDidLoad() {
@@ -24,7 +24,6 @@ class RootViewController: UIViewController {
     func routerScreen() {
         
         if deeplinkStatus == true {
-            //requestToServer()
             openSuccessScreen()
         }else {
             openDummyScreen()

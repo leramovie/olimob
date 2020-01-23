@@ -7,6 +7,7 @@ target 'olimobLera' do
 
   # Pods for olimobLera
 	pod 'FacebookCore'
+	pod 'SwiftyJSON'
 
 
 end

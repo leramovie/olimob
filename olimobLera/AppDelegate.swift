@@ -9,6 +9,7 @@
 import UIKit
 import FacebookCore
 import FBSDKCoreKit
+import SwiftyJSON
 
 
 
@@ -43,8 +44,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
             if let url = url {
                 
-                
-                
+                //handle url
+                    let downloadURL = url
+                    let session = URLSession.shared
+                    session.dataTask(with: downloadURL) { data, response, error in
+                        guard let data = data else {return}
+                            do{
+                                let myJSON = try JSON(data: data)
+                                   
+                                print(myJSON)
+                                let items = myJSON["promo_code"]
+                            }
+                    }
                   print (url)
                 
                 if #available(iOS 10, *) {

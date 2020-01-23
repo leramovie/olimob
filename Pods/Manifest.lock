@@ -1,0 +1,25 @@
+PODS:
+  - FacebookCore (0.9.0):
+    - FBSDKCoreKit (~> 5.0)
+  - FBSDKCoreKit (5.14.0):
+    - FBSDKCoreKit/Basics (= 5.14.0)
+    - FBSDKCoreKit/Core (= 5.14.0)
+  - FBSDKCoreKit/Basics (5.14.0)
+  - FBSDKCoreKit/Core (5.14.0):
+    - FBSDKCoreKit/Basics
+
+DEPENDENCIES:
+  - FacebookCore
+
+SPEC REPOS:
+  trunk:
+    - FacebookCore
+    - FBSDKCoreKit
+
+SPEC CHECKSUMS:
+  FacebookCore: ba86524b66cfa86d0f8e65d08faa8504a9f732dd
+  FBSDKCoreKit: a72c8d2c42aa4c4d5eaa5f160be9580750f70d2e
+
+PODFILE CHECKSUM: d6f943354b07cc5a369839df36364674342e0fbd
+
+COCOAPODS: 1.8.4

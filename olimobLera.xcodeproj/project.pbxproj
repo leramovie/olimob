@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00F8322696F8C276EFDF956F /* Pods_olimobLera.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F2090BBE6471F1E3607682D /* Pods_olimobLera.framework */; };
+		F909E41423D1DBA200CBEF7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F909E41323D1DBA200CBEF7A /* AppDelegate.swift */; };
+		F909E41623D1DBA200CBEF7A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F909E41523D1DBA200CBEF7A /* SceneDelegate.swift */; };
+		F909E41823D1DBA200CBEF7A /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F909E41723D1DBA200CBEF7A /* RootViewController.swift */; };
+		F909E41B23D1DBA200CBEF7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F909E41923D1DBA200CBEF7A /* Main.storyboard */; };
+		F909E41D23D1DBAB00CBEF7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F909E41C23D1DBAB00CBEF7A /* Assets.xcassets */; };
+		F909E42023D1DBAB00CBEF7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F909E41E23D1DBAB00CBEF7A /* LaunchScreen.storyboard */; };
+		F96E0CDC23D475CE00691E0C /* DeeplinkSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96E0CDB23D475CE00691E0C /* DeeplinkSystem.swift */; };
+		F96E0D2023D9AE5A00691E0C /* HelpFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96E0D1F23D9AE5A00691E0C /* HelpFunctions.swift */; };
+		F9AA4ECC23D1DF3C00D6E4AE /* SuccessRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AA4ECB23D1DF3C00D6E4AE /* SuccessRequestViewController.swift */; };
+		F9CFB8D923D211F800096724 /* DummyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CFB8D823D211F800096724 /* DummyViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F2090BBE6471F1E3607682D /* Pods_olimobLera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_olimobLera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34AF77403699A52F7A25581F /* Pods-olimobLera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-olimobLera.release.xcconfig"; path = "Target Support Files/Pods-olimobLera/Pods-olimobLera.release.xcconfig"; sourceTree = "<group>"; };
+		9A7024A67646B41F089D3EF6 /* Pods-olimobLera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-olimobLera.debug.xcconfig"; path = "Target Support Files/Pods-olimobLera/Pods-olimobLera.debug.xcconfig"; sourceTree = "<group>"; };
+		F909E41023D1DBA200CBEF7A /* olimobLera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = olimobLera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F909E41323D1DBA200CBEF7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F909E41523D1DBA200CBEF7A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F909E41723D1DBA200CBEF7A /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		F909E41A23D1DBA200CBEF7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F909E41C23D1DBAB00CBEF7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F909E41F23D1DBAB00CBEF7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F909E42123D1DBAB00CBEF7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F96E0CDB23D475CE00691E0C /* DeeplinkSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeeplinkSystem.swift; sourceTree = "<group>"; };
+		F96E0D1F23D9AE5A00691E0C /* HelpFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpFunctions.swift; sourceTree = "<group>"; };
+		F9AA4ECB23D1DF3C00D6E4AE /* SuccessRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessRequestViewController.swift; sourceTree = "<group>"; };
+		F9CFB8D823D211F800096724 /* DummyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DummyViewController.swift; path = olimobLera/ViewControllers/DummyViewController.swift; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F909E40D23D1DBA200CBEF7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00F8322696F8C276EFDF956F /* Pods_olimobLera.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F334D121364DD14550EA2BF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A7024A67646B41F089D3EF6 /* Pods-olimobLera.debug.xcconfig */,
+				34AF77403699A52F7A25581F /* Pods-olimobLera.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AB3FD309396B2FF99985C40F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F2090BBE6471F1E3607682D /* Pods_olimobLera.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F909E40723D1DBA200CBEF7A = {
+			isa = PBXGroup;
+			children = (
+				F909E41223D1DBA200CBEF7A /* olimobLera */,
+				F909E41123D1DBA200CBEF7A /* Products */,
+				4F334D121364DD14550EA2BF /* Pods */,
+				AB3FD309396B2FF99985C40F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F909E41123D1DBA200CBEF7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F909E41023D1DBA200CBEF7A /* olimobLera.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F909E41223D1DBA200CBEF7A /* olimobLera */ = {
+			isa = PBXGroup;
+			children = (
+				F96E0CDA23D4759600691E0C /* Helpers */,
+				F9AA4ECF23D1E5A300D6E4AE /* ViewControllers */,
+				F9AA4ED023D1E5B500D6E4AE /* Storyboards */,
+				F909E41323D1DBA200CBEF7A /* AppDelegate.swift */,
+				F909E41523D1DBA200CBEF7A /* SceneDelegate.swift */,
+				F909E41C23D1DBAB00CBEF7A /* Assets.xcassets */,
+				F909E42123D1DBAB00CBEF7A /* Info.plist */,
+			);
+			path = olimobLera;
+			sourceTree = "<group>";
+		};
+		F96E0CDA23D4759600691E0C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F96E0CDB23D475CE00691E0C /* DeeplinkSystem.swift */,
+				F96E0D1F23D9AE5A00691E0C /* HelpFunctions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		F9AA4ECF23D1E5A300D6E4AE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F909E41723D1DBA200CBEF7A /* RootViewController.swift */,
+				F9CFB8D823D211F800096724 /* DummyViewController.swift */,
+				F9AA4ECB23D1DF3C00D6E4AE /* SuccessRequestViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F9AA4ED023D1E5B500D6E4AE /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F909E41923D1DBA200CBEF7A /* Main.storyboard */,
+				F909E41E23D1DBAB00CBEF7A /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F909E40F23D1DBA200CBEF7A /* olimobLera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F909E42423D1DBAB00CBEF7A /* Build configuration list for PBXNativeTarget "olimobLera" */;
+			buildPhases = (
+				3A1574B30FD68CC8C4C306C5 /* [CP] Check Pods Manifest.lock */,
+				F909E40C23D1DBA200CBEF7A /* Sources */,
+				F909E40D23D1DBA200CBEF7A /* Frameworks */,
+				F909E40E23D1DBA200CBEF7A /* Resources */,
+				1BCE504DF4D92BA35E820941 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = olimobLera;
+			productName = olimobLera;
+			productReference = F909E41023D1DBA200CBEF7A /* olimobLera.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F909E40823D1DBA200CBEF7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = Parakluence;
+				TargetAttributes = {
+					F909E40F23D1DBA200CBEF7A = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = F909E40B23D1DBA200CBEF7A /* Build configuration list for PBXProject "olimobLera" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F909E40723D1DBA200CBEF7A;
+			productRefGroup = F909E41123D1DBA200CBEF7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F909E40F23D1DBA200CBEF7A /* olimobLera */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F909E40E23D1DBA200CBEF7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F909E42023D1DBAB00CBEF7A /* LaunchScreen.storyboard in Resources */,
+				F909E41D23D1DBAB00CBEF7A /* Assets.xcassets in Resources */,
+				F909E41B23D1DBA200CBEF7A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BCE504DF4D92BA35E820941 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-olimobLera/Pods-olimobLera-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-olimobLera/Pods-olimobLera-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-olimobLera/Pods-olimobLera-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A1574B30FD68CC8C4C306C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-olimobLera-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F909E40C23D1DBA200CBEF7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F96E0CDC23D475CE00691E0C /* DeeplinkSystem.swift in Sources */,
+				F909E41823D1DBA200CBEF7A /* RootViewController.swift in Sources */,
+				F9CFB8D923D211F800096724 /* DummyViewController.swift in Sources */,
+				F909E41423D1DBA200CBEF7A /* AppDelegate.swift in Sources */,
+				F9AA4ECC23D1DF3C00D6E4AE /* SuccessRequestViewController.swift in Sources */,
+				F909E41623D1DBA200CBEF7A /* SceneDelegate.swift in Sources */,
+				F96E0D2023D9AE5A00691E0C /* HelpFunctions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F909E41923D1DBA200CBEF7A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F909E41A23D1DBA200CBEF7A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F909E41E23D1DBAB00CBEF7A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F909E41F23D1DBAB00CBEF7A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F909E42223D1DBAB00CBEF7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F909E42323D1DBAB00CBEF7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F909E42523D1DBAB00CBEF7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A7024A67646B41F089D3EF6 /* Pods-olimobLera.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 489JK8PZ4S;
+				INFOPLIST_FILE = olimobLera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lera.olimobLera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F909E42623D1DBAB00CBEF7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34AF77403699A52F7A25581F /* Pods-olimobLera.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 489JK8PZ4S;
+				INFOPLIST_FILE = olimobLera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lera.olimobLera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F909E40B23D1DBA200CBEF7A /* Build configuration list for PBXProject "olimobLera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F909E42223D1DBAB00CBEF7A /* Debug */,
+				F909E42323D1DBAB00CBEF7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F909E42423D1DBAB00CBEF7A /* Build configuration list for PBXNativeTarget "olimobLera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F909E42523D1DBAB00CBEF7A /* Debug */,
+				F909E42623D1DBAB00CBEF7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F909E40823D1DBA200CBEF7A /* Project object */;
+}

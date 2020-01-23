@@ -13,8 +13,8 @@ import FacebookCore
 class RootViewController: UIViewController {
     
     let helpFunc = HelpFunc()
-    let appDelegate = UIApplication.shared.delegate as! AppDelegate
-    
+//    let appDelegate = UIApplication.shared.delegate as! AppDelegate
+    var deeplinkStatus = (UIApplication.shared.delegate as! AppDelegate).deeplinkGet
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,12 +30,23 @@ class RootViewController: UIViewController {
             self.navigationController?.pushViewController(sv!, animated: true)
 
         }
-    
-    
 
+    
+    
+    func routerScreen() {
+        
+        if deeplinkStatus == true {
+          openSuccessScreen()
+        }else if deeplinkStatus == false{
+          openDummyScreen()
+            print("We didn't get deeplink or deeplinkStatus = nil")
+        }
+    }
+    
+    
     @IBAction func pushButton(_ sender: Any) {
         helpFunc.requestToServer()
-        appDelegate.routerScreen()
+        routerScreen()
         
     }
 

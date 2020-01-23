@@ -13,7 +13,6 @@ import FacebookCore
 class RootViewController: UIViewController {
     
     let helpFunc = HelpFunc()
-//    let appDelegate = UIApplication.shared.delegate as! AppDelegate
     var deeplinkStatus = (UIApplication.shared.delegate as! AppDelegate).deeplinkGet
     
     override func viewDidLoad() {

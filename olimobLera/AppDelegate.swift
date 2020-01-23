@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     
     var window: UIWindow?
-    lazy var deeplinkGet: Bool = true
+    var deeplinkGet: Bool = true
     let rootVC = RootViewController()
 
 
@@ -125,9 +125,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didDiscardSceneSessions sceneSessions: Set<UISceneSession>) {
 
     }
-    
-
-
 
 }
 

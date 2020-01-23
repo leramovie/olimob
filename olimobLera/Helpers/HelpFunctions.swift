@@ -14,6 +14,7 @@ class HelpFunc {
     var statusCode: Int = 0
     var promo_code: String = ""
 
+    
 
 //Делаю запрос на сервер. Получаю декодированный параметр
 func requestToServer() {

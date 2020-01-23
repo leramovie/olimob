@@ -13,6 +13,7 @@ class SuccessRequestViewController: UIViewController {
     var responseText: String!
     var statusText: String!
     var promo_code: String?
+    let helpFunc = HelpFunc()
 
     @IBOutlet weak var requestTextLabel: UILabel!
     @IBOutlet weak var statusLabel: UILabel!
@@ -23,6 +24,7 @@ class SuccessRequestViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        helpFunc.requestToServer()
         
         DispatchQueue.main.async {
         

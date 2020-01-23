@@ -14,6 +14,7 @@
 		F909E41B23D1DBA200CBEF7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F909E41923D1DBA200CBEF7A /* Main.storyboard */; };
 		F909E41D23D1DBAB00CBEF7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F909E41C23D1DBAB00CBEF7A /* Assets.xcassets */; };
 		F909E42023D1DBAB00CBEF7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F909E41E23D1DBAB00CBEF7A /* LaunchScreen.storyboard */; };
+		F96C107F23D9C5D7004246F9 /* Struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96C107E23D9C5D7004246F9 /* Struct.swift */; };
 		F96E0D2023D9AE5A00691E0C /* HelpFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96E0D1F23D9AE5A00691E0C /* HelpFunctions.swift */; };
 		F9AA4ECC23D1DF3C00D6E4AE /* SuccessRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AA4ECB23D1DF3C00D6E4AE /* SuccessRequestViewController.swift */; };
 		F9CFB8D923D211F800096724 /* DummyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CFB8D823D211F800096724 /* DummyViewController.swift */; };
@@ -31,6 +32,7 @@
 		F909E41C23D1DBAB00CBEF7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F909E41F23D1DBAB00CBEF7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F909E42123D1DBAB00CBEF7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F96C107E23D9C5D7004246F9 /* Struct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Struct.swift; sourceTree = "<group>"; };
 		F96E0D1F23D9AE5A00691E0C /* HelpFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpFunctions.swift; sourceTree = "<group>"; };
 		F9AA4ECB23D1DF3C00D6E4AE /* SuccessRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessRequestViewController.swift; sourceTree = "<group>"; };
 		F9CFB8D823D211F800096724 /* DummyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DummyViewController.swift; path = olimobLera/ViewControllers/DummyViewController.swift; sourceTree = SOURCE_ROOT; };
@@ -101,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				F96E0D1F23D9AE5A00691E0C /* HelpFunctions.swift */,
+				F96C107E23D9C5D7004246F9 /* Struct.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -244,6 +247,7 @@
 				F909E41423D1DBA200CBEF7A /* AppDelegate.swift in Sources */,
 				F9AA4ECC23D1DF3C00D6E4AE /* SuccessRequestViewController.swift in Sources */,
 				F909E41623D1DBA200CBEF7A /* SceneDelegate.swift in Sources */,
+				F96C107F23D9C5D7004246F9 /* Struct.swift in Sources */,
 				F96E0D2023D9AE5A00691E0C /* HelpFunctions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

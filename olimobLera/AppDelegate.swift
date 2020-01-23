@@ -53,8 +53,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                                 let myJSON = try JSON(data: data)
                                    
                                 print(myJSON)
-                                let items = myJSON["promo_code"]
-                                let title = item["promo_code"].stringValue
+                                let promo = myJSON["promo_code"].stringValue
                             }catch{
                                 print(error)
                                 }

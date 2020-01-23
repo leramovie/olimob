@@ -25,8 +25,9 @@ class RootViewController: UIViewController {
         
         if deeplinkStatus == true {
             openSuccessScreen()
-        }else {
+        }else if deeplinkStatus == false{
             openDummyScreen()
+            print("We didn't get deeplink or deeplinkStatus = nil")
         }
     }
     
